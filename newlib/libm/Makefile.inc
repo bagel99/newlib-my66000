@@ -96,6 +96,9 @@ endif
 if HAVE_LIBM_MACHINE_XTENSA
 include %D%/machine/xtensa/Makefile.inc
 endif
+if HAVE_LIBM_MACHINE_MY66000
+include %D%/machine/my66000/Makefile.inc
+endif
 
 CLEANFILES += \
 	%D%/targetdep.tex \

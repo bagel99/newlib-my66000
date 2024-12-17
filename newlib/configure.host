@@ -275,6 +275,9 @@ case "${host_cpu}" in
   mt*)
 	machine_dir=mt
 	;;
+  my66000)
+  	machine_dir=my66000
+  	;;
   nds32*)
 	machine_dir=nds32
 	libm_machine_dir=nds32

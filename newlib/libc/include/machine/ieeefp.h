@@ -291,6 +291,10 @@
 #define __IEEE_BIG_ENDIAN
 #endif
 
+#ifdef __my66000__
+#define __IEEE_LITTLE_ENDIAN
+#endif
+
 #ifdef __mn10300__
 #define __IEEE_LITTLE_ENDIAN
 #endif
